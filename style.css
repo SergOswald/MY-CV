@@ -1,12 +1,12 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    margin: 0;
+    margin:  0;
     padding: 0;
 }
 
 body {
-    margin: 0;
+    margin:  0;
     padding: 0;
     background-color: aquamarine; 
 }
@@ -23,22 +23,32 @@ body {
     position: fixed;
     height: 50px;
     border: 5px solid white ;
-    margin: 10px 10px 10px 10px;  
-    top:0; 
+    margin: 0px 0px 0px 10px;  
     background-color: aquamarine; 
     z-index: 100;
-    width: 100%;
+    left: 0;
+    right: 10px;
+    /* width: 100%; */
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border: 5px solid white ;
+    margin: 80px 10px 10px 10px;
 }
 
 .nav1 {
     position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
     padding: 0;
-    margin: 10px 10px 10px 10px ;           
+    margin: 10px 10px 10px 10px ;     
 }
 
 .main a:hover, 
@@ -158,17 +168,6 @@ code {
     line-height: 5px;
 }
 
-
-.footer {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    border: 5px solid white ;
-    margin: 80px 10px 10px 10px;
-}
 
 .Rss1 img {
     height: 50px;
