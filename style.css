@@ -29,9 +29,9 @@ body {
     background-color: aquamarine; 
     z-index: 100;
     left: 0;
-    right: 10px;
-    /* width: 100%; */
-    min-width: 400px;
+    /* right: 10px; */
+    width: calc( 100vw - 50px );
+    /* min-width: 400px; */
 }
 
 .footer {
@@ -181,15 +181,26 @@ code {
     color:rgb(9, 100, 73);       
 }
 
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
 
     .section {
-        flex-wrap: wrap;
-        justify-content: center;
+        /* flex-wrap: wrap;
+        justify-content: center; */
+        display: block;
     }
 
     .foto {
-        margin: 40px 50px 10px 10px ;
+        /* margin: 40px 50px 10px 10px ; */
+        display: block;
+        margin: 40px auto;
+    }
+
+    .menu {
+        font-size: 1.2rem;
+    }
+
+    .heading {
+        font-size: 2.9rem;
     }
 
 }
