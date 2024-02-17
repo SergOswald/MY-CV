@@ -30,7 +30,7 @@ body {
     z-index: 100;
     left: 0;
     /* right: 10px; */
-    width: calc( 100vw - 50px );
+    width: calc( 100vw - 30px );
     /* min-width: 400px; */
 }
 
