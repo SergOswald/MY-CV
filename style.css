@@ -23,15 +23,27 @@ body {
 
 .header {
     position: fixed;
+    display: block;
     height: 50px;
     border: 5px solid white ;
-    margin: 0px 0px 0px 10px;  
+    /* margin: 0px 0px 0px 10px;   */
+    margin: 0px 10px 0 10px;
     background-color: aquamarine; 
     z-index: 100;
     left: 0;
+    right: 0;
     /* right: 10px; */
-    width: calc( 100vw - 50px );
+    /* width: calc( 100vw - 50px ); */
     /* min-width: 400px; */
+}
+
+.nav1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 10px 10px 10px 10px ;     
 }
 
 .footer {
@@ -42,16 +54,6 @@ body {
     height: 50px;
     border: 5px solid white ;
     margin: 80px 10px 10px 10px;
-}
-
-.nav1 {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 10px 10px 10px ;     
 }
 
 .main a:hover, 
